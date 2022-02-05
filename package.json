@@ -1,0 +1,24 @@
+{
+  "name": "slack-to-sms",
+  "version": "1.0.0",
+  "description": "sends sms messages from slack to phone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "pm2": "pm2 start pm2_config.json --no-daemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "twilio": "^3.72.0"
+  }
+}
